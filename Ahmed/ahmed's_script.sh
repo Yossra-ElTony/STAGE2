@@ -1,10 +1,9 @@
-#####################################################
 #!/bin/bash
 
 # change working directory to the directory where the data is stored
 #1
-mkdir /home/nuero/ngs_pip
-cd /home/nuero/ngs_pip
+mkdir ngs_pip
+cd ngs_pip
 mkdir data_set_1
 cd data_set_1
 wget https://zenodo.org/records/10426436/files/ERR8774458_1.fastq.gz
@@ -60,8 +59,8 @@ bcftools mpileup -Ou -f Reference.fasta output_data_sorted_set_1.bam | bcftools 
 
 #####################################################
 #Data set 2
-
-cd /home/nuero/ngs_pip
+cd 
+cd ngs_pip
 mkdir data_set_2
 cd data_set_2
 
@@ -104,7 +103,7 @@ cd trimmed
 
 
 #indexing the reference file
-bwa index -a bwtsw reference.fasta
+bwa index  reference.fasta
 bwa mem reference.fasta trimmed_R1.fastq trimmed_R2.fastq > output_data_set_2.sam
 
 #converting to bam file
@@ -120,7 +119,8 @@ bcftools mpileup -Ou -f reference.fasta output_data_sorted_set_2.bam | bcftools 
 
 #####################################################
 #Data set 3
-cd /home/nuero/ngs_pip
+cd
+cd ngs_pip
 mkdir data_set_3
 cd data_set_3
 
@@ -178,7 +178,8 @@ bcftools mpileup -Ou -f reference.fasta output_data_sorted_set_3.bam | bcftools 
 
 #####################################################
 #Data set 4
-cd /home/nuero/ngs_pip
+cd 
+cd ngs_pip
 mkdir data_set_4
 cd data_set_4
 
@@ -233,7 +234,8 @@ bcftools mpileup -Ou -f reference.fasta output_data_sorted_set_4.bam | bcftools 
 
 #####################################################
 #Data set 5
-cd /home/nuero/ngs_pip
+cd 
+cd ngs_pip
 mkdir data_set_5
 cd data_set_5
 
@@ -287,7 +289,8 @@ bcftools mpileup -Ou -f reference.fasta output_data_sorted_set_5.bam | bcftools 
 
 #####################################################
 #Data set 6
-cd /home/nuero/ngs_pip
+cd 
+cd ngs_pip
 mkdir data_set_6
 cd data_set_6
 
