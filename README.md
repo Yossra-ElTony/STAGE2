@@ -1,13 +1,19 @@
 Team Dorothy-Albert
 
-Welcome to the README file of Team  Dorothy-Albert!
-We are a group of trinee participating in the HackBio Genomics Internship, under the guidance of our team manager, Bhavi and Rajarshi, team leaders, Yossra, leader assistant Simeon and Ahmed. 
+Welcome to the README file of Team Dorothy-Albert!
 
-The members are ( Rehab, Drake, Simeon, Ahmed, and Yossra) 
+We are a group of trainees participating in the HackBio Genomics Internship, under the guidance of our team manager: Bhavi, and Rajarshi, team leader: Yossra, leader assistants: Simeon and Ahmed.
 
-We successfuly reach to STAGE 2. In this stage, wee have beeeen asked to implement a pipeeline, conducting these prcoess; download dataset => Quality Control => Trimming => Genome Mapping  => Variant Calling, on an original dataset and other additinal datasets. 
+The members of our team are Rehab, Drake, Simeon, Ahmed, and Yossra.
 
-The submission should include 3 files; 
-script.sh ==>   your final pipeline  
-setup.sh ==> file that anyone can use to install all the tools needed for making the pipeline work.
-requirement.txt ==> file that simply lists all the tools you used
+We have successfully reached STAGE 2. In this stage, we have been asked to implement a pipeline that conducts the following processes: download dataset => Quality Control => Trimming => Genome Mapping => Variant Calling. This pipeline will be applied to an original dataset as well as additional datasets.
+
+The submission should include 3 files:
+script.sh: This is your final pipeline.
+setup.sh: This file can be used by anyone to install all the tools required for the pipeline to work.
+requirement.txt: This file simply lists all the tools you used.
+
+Thank you and let's continue working together towards our goals!
+
+Best regards,
+Team Dorothy-Albert
