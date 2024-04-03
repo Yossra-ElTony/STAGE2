@@ -1,0 +1,8 @@
+wget
+bwa
+samtools
+bcftools
+fastqc
+multiqc
+sickle
+
