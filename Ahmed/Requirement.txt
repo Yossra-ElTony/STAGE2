@@ -1,0 +1,10 @@
+Requirement
+
+
+tools 
+1. fastqc
+2. fastp
+3. multiqc
+4. samtools
+5. bcftools
+6. bwa
