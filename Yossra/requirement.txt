@@ -1,0 +1,10 @@
+fastqc ==>  for doing quality control 
+
+fastp ==> for doing trimming 
+
+bwa ==>  for doing alignment
+ 
+samtools ==>  for processes after alignments 
+
+bcftools ==>  for variant calling 
+
