@@ -1,0 +1,6 @@
+
+fastqc - v0.11.9
+fastp - 0.20.1
+bwa  -  0.7.17
+samtools - 1.11
+bcftools - 1.11
