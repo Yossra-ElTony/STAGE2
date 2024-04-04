@@ -22,7 +22,6 @@ mv *.html qc_output
 mv *.zip qc_output
 
 cd qc_output
-multiqc -z -o . .
 
 cd ..
 
