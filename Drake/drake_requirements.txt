@@ -1,0 +1,8 @@
+conda
+fastqc
+multiqc
+samtools
+freebayes
+bcftools
+bwa
+bgzip
